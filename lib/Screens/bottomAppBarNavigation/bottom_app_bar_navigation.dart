@@ -15,7 +15,9 @@ class BottomAppBarNavigationState extends State<BottomAppBarNavigation> {
   var _currentIndex = 0;
   final List<Widget> _widgetOptions = <Widget>[
     const HomeScreen(),
-    
+    const Center(child: Text("TimeCircle")),
+    const Center(child: Text("Bag")),
+    const Center(child: Text("Profile")),
   ];
 
   @override
@@ -86,6 +88,7 @@ class BottomAppBarNavigationState extends State<BottomAppBarNavigation> {
           ),
         ));
   }
+
   List<String> listOfImagesPath = [
     "Home.png",
     "TimeCircle.png",

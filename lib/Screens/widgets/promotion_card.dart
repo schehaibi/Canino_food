@@ -54,10 +54,11 @@ class _PromotionCardState extends State<PromotionCard> {
                 Text(
                   widget.description,
                   style: const TextStyle(
-                    color: Colors.white,
-                    letterSpacing: 1,
-                    fontSize: 12,
-                  ),
+                      color: Colors.white,
+                      letterSpacing: 1,
+                      fontSize: 12,
+                      fontFamily: "Poppins",
+                      fontWeight: FontWeight.w500),
                   maxLines: 2,
                   textAlign: TextAlign.left,
                 )
